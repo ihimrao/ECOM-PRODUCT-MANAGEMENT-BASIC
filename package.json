@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run express\" \"npm run next\"",
+    "express": "cd PIM-BE && npm start",
+    "next": "cd PIM-FE && npm run dev",
+    "install-all": "npm install && cd PIM-FE && npm install && cd ../PIM-BE && npm install"
+
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
