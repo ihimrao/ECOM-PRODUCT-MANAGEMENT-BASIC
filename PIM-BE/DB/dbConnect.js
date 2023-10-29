@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbURL = process.env.DB || 'mongodb+srv://ihimrao:ihimrao@lms.e5ahgmo.mongodb.net/product?retryWrites=true&w=majority';
+const dbURL = process.env.DB || 'WRITE-YOUR-MONGODB-URI-HERE';
 
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true });
 
