@@ -1,1 +1,32 @@
-/package-lock.json
+# Ignore Node.js and NPM related files
+**/node_modules/
+npm-debug.log
+yarn-error.log
+*.lock
+*.log
+**/package-lock.json
+
+# Ignore build and compiled files
+**/build/
+**/dist/
+**/out/
+**/*.db
+
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Ignore dependencies, logs, and databases
+.db
+logs/
+*.sqlite
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*~
+*.swp
